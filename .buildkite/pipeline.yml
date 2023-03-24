@@ -1,2 +1,4 @@
 steps:
-  - command: '.buildkite/test.sh'
+ - label: "Example Test"
+ - command: echo "Hello!"
+ - command: '.buildkite/test.sh'
