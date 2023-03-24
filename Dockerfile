@@ -4,4 +4,4 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY . /usr/src/app
 ENV CLIENT_SECRET 123abc
-CMD ["ruby","src/hello.rb"]
+CMD ["ruby","hello.rb"]
