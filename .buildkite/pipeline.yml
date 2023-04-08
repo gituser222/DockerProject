@@ -8,5 +8,6 @@ steps:
             value: "DevInt"
           - label: "PreProd"
             value: "PreProd"
-  - wait          
+  - wait
+  - label :salesforce:
   - command: "test.sh"
