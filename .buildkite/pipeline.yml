@@ -8,4 +8,5 @@ steps:
             value: "beta"
           - label: "Stable"
             value: "stable"
+  - wait          
   - command: "test.sh"
