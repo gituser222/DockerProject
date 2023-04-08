@@ -10,4 +10,4 @@ steps:
             value: "PreProd"
   - wait
   - label: ":salesforce: run tests"
-    command: "test.sh"
+  - command: "test.sh"
