@@ -1,3 +1,11 @@
 steps:
-  - label: ":hammer: Example Script"
-    command: "test.sh"
+  - input: "Request Release"
+    fields:
+      - select: "Stream"
+        key: "release-stream"
+        options:
+          - label: "Beta"
+            value: "beta"
+          - label: "Stable"
+            value: "stable"
+  - command: "test.sh"
