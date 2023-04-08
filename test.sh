@@ -1,4 +1,4 @@
 echo "Tesing my build..."
-buildkite-agent meta-data get "TEST_ENV"
-echo $TEST_ENV
+SF = ${buildkite-agent meta-data get "TEST_ENV"}
+echo $SF
 buildkite-agent artifact upload ./test.sh
