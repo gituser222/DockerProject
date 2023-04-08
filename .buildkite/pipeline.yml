@@ -1,12 +1,12 @@
 steps:
-  - input: "Request Release"
+  - input: "Select Environment"
     fields:
-      - select: "Stream"
-        key: "release-stream"
+      - select: "Env"
+        key: "TEST_ENV"
         options:
-          - label: "Beta"
-            value: "beta"
-          - label: "Stable"
-            value: "stable"
+          - label: "DevInt"
+            value: "DevInt"
+          - label: "PreProd"
+            value: "PreProd"
   - wait          
   - command: "test.sh"
