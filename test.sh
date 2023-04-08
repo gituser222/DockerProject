@@ -1,2 +1,2 @@
 echo "Tesing my build..."
-docker build --tag myTest .
+docker run hello-world
