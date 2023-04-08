@@ -1,3 +1,6 @@
+env:
+BUILDKITE_BUILD_PATH: "/home/cloud_user/"
+  
 steps:
   - input: "Select Environment"
     fields:
