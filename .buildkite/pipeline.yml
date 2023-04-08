@@ -9,5 +9,5 @@ steps:
           - label: "PreProd"
             value: "PreProd"
   - wait
-  - label: ":salesforce: run tests"
-  - command: "test.sh"
+  - label: ":salesforce: run tests $TEST_ENV"
+    command: "test.sh"
