@@ -1,2 +1,3 @@
 echo "Tesing my build..."
-docker run hello-world
+buildkite-agent meta-data get "release-stream"
+echo $release-stream
