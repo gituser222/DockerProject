@@ -4,10 +4,10 @@ steps:
       - select: "Env"
         key: "TEST_ENV"
         options:
-          - label: "DevInt"
-            value: "DevInt"
-          - label: "PreProd"
-            value: "PreProd"
+          - label: "Dev"
+            value: "Dev"
+          - label: "QA"
+            value: "QA"
   - wait
   - label: ":salesforce: run tests $TEST_ENV"
     command: "test.sh"
