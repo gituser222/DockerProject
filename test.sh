@@ -6,4 +6,4 @@ docker run hello-world
 echo "Building docker image"
 docker build --tag test .
 echo "Runnung docker image"
-docker run -rm test
+docker run --rm test
